@@ -18,7 +18,7 @@ function formulario(elEvento){
       respuestas.style.color = 'green';
       
     }else {
-      respuestas.innerHTML = " Tu contraseña es incorrecta";
+      respuestas.innerHTML = ' <h3>"Tu contraseña es incorrecta"</h3>';
       respuestas.style.color = 'red';
     }
 
